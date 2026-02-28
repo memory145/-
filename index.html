@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ようこそ、記憶の魔女の森へ。</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Hiragino Mincho ProN", serif;
+  background: linear-gradient(to bottom, #2d1b4e, #f2d16b);
+  color: white;
+  text-align: center;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.8em;
+}
+
+.fade {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="section">
+  <h1 class="fade">ようこそ、記憶の魔女の森へ。</h1>
+  <p class="fade">
+    静けさとざわめきが混ざる夕暮れの森。<br>
+    気づけば、足を止めている。
+  </p>
+</div>
+
+<div class="section">
+  <p class="fade">
+    紫と黄色のあわいで、<br>
+    ひとりの魔女が今日も灯りをともす。
+  </p>
+</div>
+
+<div class="section">
+  <p class="fade">
+    今日も魔女はあなたを待っている。<br><br>
+    ここに来れば、<br>
+    記憶ちゃん。に会える。
+  </p>
+</div>
+
+</body>
+</html>
